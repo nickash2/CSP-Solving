@@ -2,16 +2,16 @@ from  CSP_solver import *
 
 #The set of variables of the CSP with domains
 variables = [
-    Variable("A", domain= [1,2]),
-    Variable("B", domain= [1,2,3]),
-    Variable("C", domain= [1,2,3,4])
+	Variable("A", domain= [1,2]),
+	Variable("B", domain= [1,2,3]),
+	Variable("C", domain= [1,2,3,4])
 ]
 
 #Here are the constraints:
 constraints = [
-    Constraint("2 * A == C"),
-    Constraint("A != B"),
-    Constraint("A + B <= C")
+	Constraint("2 * A == C"),
+	Constraint("A != B"),
+	Constraint("A + B <= C")
 ]
 
 #construct a csp with the variables and constraints
