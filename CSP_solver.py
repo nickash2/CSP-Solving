@@ -215,16 +215,16 @@ class CSP:
 	def print_with_indent(self , text):
 		print('\t' * (self.n_assigned_variables - 1) + text)
 
+
 	def unassigned_var(self) -> list[Variable]:
 		return [v for v in self.variables if v.value is None]
 	
-
 
 	def mrv_heuristic(self) -> Variable:
 		# You have to implement this yourself
 		
 	
-		unassigned = [var for var in self.variables if var.value is None]
+		unassigned = self.unassigned_var()
 		min_var = unassigned[0]  # First unassigned variable
 		min_count = len(unassigned)
 
@@ -242,9 +242,32 @@ class CSP:
 
 		return min_var
 
+	def get_degree(self, variable):
+		degree = 0
+  
+		for varidx in self.constraints:
+			if variable in varidx.variables:
+				degree += 1
+    
+		return degree
+ 
+ 
 	def degree_heuristic(self) -> Variable:
-		# You have to implement this yourself
-		raise NotImplementedError
+		min_var = None
+		max_degree = -1
+
+		unassigned = self.unassigned_var()
+
+		for var in unassigned:
+			degree = self.get_degree(var)
+
+			if degree > max_degree:
+				max_degree = degree
+				min_var = var
+
+		return min_var
+  
+  
 	
 	def choose_next_variable(self) -> Variable:
 		return self.variables[self.n_assigned_variables]
