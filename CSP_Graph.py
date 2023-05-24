@@ -23,7 +23,7 @@ constraints = [
 ]
 
 #construct a csp with the variables and constraints
-csp = CSP(variables, constraints, init_node = True, init_arc= False, keep_node= True, keep_arc= False)
+csp = CSP(variables, constraints, init_node = True, init_arc= True, keep_node= True, keep_arc= True, heuristic="mrv")
 
 #Solve the csp and use verbose = True in order to print the search tree
 csp.solve(verbose=True)

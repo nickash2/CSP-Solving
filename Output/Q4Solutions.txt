@@ -1,0 +1,412 @@
+Choosing variable A with domain [1, 2, 3, 4]
+Assigning 1 to A:
+	Choosing variable B with domain [1, 2, 3, 4]
+	Assigning 1 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+		direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 2 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+		direct conflict!
+		Assigning 2 to C:
+		direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 3 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+		direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+		direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 4 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+		direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+		direct conflict!
+Assigning 2 to A:
+	Choosing variable B with domain [1, 2, 3, 4]
+	Assigning 1 to B:
+	direct conflict!
+	Assigning 2 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+		direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 3 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+		direct conflict!
+		Assigning 3 to C:
+		direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 4 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+		direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+		direct conflict!
+Assigning 3 to A:
+	Choosing variable B with domain [1, 2, 3, 4]
+	Assigning 1 to B:
+	direct conflict!
+	Assigning 2 to B:
+	direct conflict!
+	Assigning 3 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+		direct conflict!
+		Assigning 4 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				Solution found: 
+A = 3; B = 3; C = 4; D = 2; E = 1; 
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+	Assigning 4 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+		direct conflict!
+		Assigning 4 to C:
+		direct conflict!
+Assigning 4 to A:
+	Choosing variable B with domain [1, 2, 3, 4]
+	Assigning 1 to B:
+	direct conflict!
+	Assigning 2 to B:
+	direct conflict!
+	Assigning 3 to B:
+	direct conflict!
+	Assigning 4 to B:
+		Choosing variable C with domain [1, 2, 3, 4]
+		Assigning 1 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 3 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 2 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+			direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				Solution found: 
+A = 4; B = 4; C = 2; D = 3; E = 1; 
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 3 to C:
+			Choosing variable D with domain [1, 2, 3, 4]
+			Assigning 1 to D:
+				Choosing variable E with domain [1, 2, 3, 4]
+				Assigning 1 to E:
+				direct conflict!
+				Assigning 2 to E:
+				direct conflict!
+				Assigning 3 to E:
+				direct conflict!
+				Assigning 4 to E:
+				direct conflict!
+			Assigning 2 to D:
+			direct conflict!
+			Assigning 3 to D:
+			direct conflict!
+			Assigning 4 to D:
+			direct conflict!
+		Assigning 4 to C:
+		direct conflict!
+Number Solutions: 2; Number States visited 53; Number constraints evaluated 286

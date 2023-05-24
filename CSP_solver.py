@@ -221,9 +221,6 @@ class CSP:
 	
 
 	def mrv_heuristic(self) -> Variable:
-		# You have to implement this yourself
-		
-	
 		unassigned = self.unassigned_var()
 		min_var = unassigned[0]  # First unassigned variable
 		min_count = len(unassigned)
