@@ -222,23 +222,22 @@ class CSP:
 
 	def mrv_heuristic(self) -> Variable:
 		# You have to implement this yourself
-		count = self.constraints.n_variables()
+		
 	
-		unassigned = self.constraints.unassigned_variables()
+		unassigned = [var for var in self.variables if var.value is None]
 		min_var = unassigned[0]  # First unassigned variable
-		min_count = count_constraints(csp, unassigned)
+		min_count = len(unassigned)
 
 		for var in unassigned:
-			remaining_values = self.variables.domain[var]
-			remaining_count = len(remaining_values)
+			remaining_count = len(var.domain)
 
-			if remaining_count < len(self.variables.domain[min_var]):
+			if remaining_count < len(min_var.domain):
 				min_var = var
-				min_count = count_constraints(csp, unassigned)
-			elif remaining_count == len(csp.domain[min_var]):
-				var_count = count_constraints(csp, [var])
-				min_count = count_constraints(csp, [min_var])
-				if var_count > min_count:
+				min_count = remaining_count
+			elif remaining_count == len(min_var.domain):
+				var_count = len(var.constraints_with_degree(0))
+				min_count = len(min_var.constraints_with_degree(0))
+				if var_count < min_count:
 					min_var = var
 
 		return min_var
