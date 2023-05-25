@@ -34,12 +34,20 @@ constraints = [
     Constraint("F != O"),
     Constraint("F != Z"),
     Constraint("O != Z")
-    
-    
+
 ]
 
 #construct a csp with the variables and constraints
-csp = CSP(variables, constraints, init_node = True, init_arc= True, keep_node= True, keep_arc= True)
+csp = CSP(variables, constraints, init_node = False, init_arc=True, keep_node= False, keep_arc=True)
 
 #Solve the csp and use verbose = True in order to print the search tree
-csp.solve(verbose=False)
+csp.solve(verbose=True)
+# deg arc off: Number Solutions: 1; Number States visited 4116; Number constraints evaluated 288406
+# mrv arc off: Number Solutions: 1; Number States visited 4116; Number constraints evaluated 288406
+# normal arc off: Number Solutions: 1; Number States visited 4692; Number constraints evaluated 315406
+
+# deg node off: Number Solutions: 1; Number States visited 693; Number constraints evaluated 421334
+
+# deg both on: Number Solutions: 1; Number States visited 589; Number constraints evaluated 286753
+# mrv both on: same
+# normal both on: Number Solutions: 1; Number States visited 661; Number constraints evaluated 293648
